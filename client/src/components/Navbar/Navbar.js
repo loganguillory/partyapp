@@ -1,14 +1,12 @@
 import React from 'react';
+import './index.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-    <nav>
-        <ul>
-        <li><a href="Home">Home</a></li>
-        <li><a href="About">About</a></li>
-        <li><a href="Upcoming">Upcoming Events</a></li>
-    </ul>
-    </nav>
+        <nav>
+            I'maWay
+        </nav>
     );
 }
 
