@@ -1,3 +1,19 @@
+
+
+.eventFinder{
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
 .event {
     margin: 0;
     display: flex;
