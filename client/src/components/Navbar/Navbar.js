@@ -5,9 +5,13 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <nav>
-            I'maWay
+            <div class="party-hat"></div>
+            <ul>
+                <li><a href="/">Home</a></li>                
+                <li><a href="/newEvents">Events</a></li>
+            </ul>
         </nav>
     );
-}
+};
 
 export default Navbar;
