@@ -1,12 +1,22 @@
 .home {
     margin: 0;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    min-height: 55vh;
 }
 
+h5 a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Set link color to blue */
+    font-weight: bold; /* Make the text bold */
+  }
+h5 a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+
 .card-container {
+    margin-top: 5px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
