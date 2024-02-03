@@ -8,7 +8,7 @@ function Navbar() {
             <div class="party-hat"></div>
             <ul>
                 <li><a href="/">Home</a></li>                
-                <li><a href="/newEvents">Events</a></li>
+                <li><a href="/events">Events</a></li>
             </ul>
         </nav>
     );
